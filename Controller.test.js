@@ -1,10 +1,4 @@
 import request from "supertest";
-import app from "../index.js";
-import {
-  getAuthorByName,
-  getBookByNameAndAuthor,
-} from "../controller/Controller.js";
-
 
 describe("Always pass test", () => {
   it("should always pass", () => {
