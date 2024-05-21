@@ -7,7 +7,7 @@ import Routes from './routes/Routes.js';
 import {registerUser, loginUser} from './controller/UserController.js';
 
 const app = express();
-const port = 8001;
+const port = 80;
 
 
 app.use(cors({exposedHeaders : ['Authorization']}));
